@@ -1,0 +1,63 @@
+import { Metadata } from 'next';
+import BlogSearch from './BlogSearch';
+
+export const metadata: Metadata = {
+  title: '3Patti Sky Blog – Guides, Tips & Earning Strategies',
+  description: 'Read 3Patti Sky guides on how to earn money, deposit via JazzCash, win at Teen Patti, and more. Updated tips for Pakistani players.',
+  keywords: ['3Patti Sky blog', '3Patti Sky real or fake', '3Patti Sky legit', '3Patti Sky Pakistan', '3Patti Sky earning guide', '3Patti Sky withdrawal'],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://3pattiskygame.com.pk/blog',
+  },
+  openGraph: {
+    title: '3Patti Sky Blog – Guides, Tips & Earning Strategies',
+    description: 'Read 3Patti Sky guides on how to earn money, deposit via JazzCash, win at Teen Patti, and more. Updated tips for Pakistani players.',
+    url: 'https://3pattiskygame.com.pk/blog',
+    siteName: '3Patti Sky',
+    locale: 'en_US',
+    type: 'website',
+    images: [
+      {
+        url: 'https://3pattiskygame.com.pk/3-Patti-Sky.webp',
+        width: 1200,
+        height: 630,
+        alt: '3Patti Sky Blog – Card Game Guides for Pakistan',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '3Patti Sky Blog – Guides, Tips & Earning Strategies',
+    description: 'Read 3Patti Sky guides on how to earn money, deposit via JazzCash, win at Teen Patti, and more.',
+    images: ['https://3pattiskygame.com.pk/3-Patti-Sky.webp'],
+  },
+};
+
+const BLOG_POSTS = [
+  { slug: 'is-3patti-sky-real-or-fake', title: 'Is 3Patti Sky Real or Fake to Earn Money?', description: 'Discover the truth about 3Patti Sky legitimacy, payment methods, and how to identify fake apps. Complete guide for 2026.', date: 'January 2026', readTime: '7 min read', featured: true },
+  { slug: 'how-to-play-3patti-sky', title: 'How to Play 3Patti Sky - Complete Beginner Guide', description: 'Learn how to play 3Patti Sky step by step. Complete beginner guide with rules, gameplay, tips, and strategies for Teen Patti and more.', date: 'January 2026', readTime: '8 min read', featured: false },
+  { slug: 'tips-to-win-3patti-sky', title: 'Tips and Strategies to Win in 3Patti Sky', description: 'Learn proven tips and strategies to win in 3Patti Sky. Expert guide on Teen Patti strategies, bankroll management, and winning techniques.', date: 'January 2026', readTime: '9 min read', featured: false },
+  { slug: 'how-to-earn-money-3patti-sky', title: 'How to Earn Money in 3Patti Sky', description: 'Learn how to earn real money in 3Patti Sky. Complete guide on earning methods, bonuses, referral program, and withdrawal process.', date: 'January 2026', readTime: '10 min read', featured: false },
+  { slug: 'payment-methods-jazzcash-easypaisa', title: '3Patti Sky Payment Methods - JazzCash & EasyPaisa', description: 'Complete guide on using JazzCash and EasyPaisa for deposits and withdrawals in 3Patti Sky. Step-by-step instructions for Pakistani players.', date: 'January 2026', readTime: '7 min read', featured: false },
+  { slug: '3patti-sky-features-benefits', title: '3Patti Sky App Features and Benefits', description: 'Discover all the amazing features and benefits of 3Patti Sky app. Learn about games, bonuses, security, and why it\'s the best platform.', date: 'January 2026', readTime: '8 min read', featured: false },
+  { slug: 'how-to-create-account-login', title: 'How to Create Account and Login in 3Patti Sky', description: 'Complete step-by-step guide on creating an account and logging in to 3Patti Sky. Learn registration, verification, and login process.', date: 'January 2026', readTime: '6 min read', featured: false },
+];
+
+export default function Blog() {
+  return (
+    <div className="container mx-auto px-4 py-12">
+      <h1 className="text-3xl md:text-4xl font-bold mb-8 text-accent">3Patti Sky Blog</h1>
+      <p className="text-gray-300 mb-8 text-lg">Stay updated with the latest guides and information about 3Patti Sky</p>
+      <BlogSearch posts={BLOG_POSTS} />
+    </div>
+  );
+} 

@@ -2,20 +2,20 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Withdraw Money from 3Patti Sky? | Fast & Secure Withdrawal Guide 2026',
-  description: 'Learn how to withdraw money from 3Patti Sky using JazzCash, EasyPaisa, and Bank Transfer. Follow our step-by-step guide for quick and secure withdrawals.',
-  keywords: 'withdraw money 3patti sky, 3patti sky withdrawal, jazzcash withdrawal, easypaisa withdrawal, cash out 3patti sky, 3patti sky payout',
+  title: '3Patti Sky Withdrawal Guide — Cashing Out to JazzCash & EasyPaisa',
+  description: 'How to pull your winnings out of 3Patti Sky through JazzCash, EasyPaisa, or a bank transfer — the full process, timing, and what to do if a payout stalls.',
+  keywords: '3patti sky withdrawal, cash out 3patti sky, 3patti sky payout, jazzcash withdrawal, easypaisa withdrawal, 3patti sky wallet cash out',
   openGraph: {
-    title: 'How to Withdraw Money from 3Patti Sky? | Fast & Secure Withdrawal Guide',
-    description: 'Step-by-step guide to withdraw money from 3Patti Sky using JazzCash, EasyPaisa, and Bank Transfer. Quick and secure withdrawals.',
+    title: '3Patti Sky Withdrawal Guide — Cashing Out to JazzCash & EasyPaisa',
+    description: 'The full withdrawal process for 3Patti Sky: JazzCash, EasyPaisa, and bank transfer options explained.',
     url: 'https://3pattiskygame.com.pk/withdraw-money-from-3patti-sky',
     siteName: '3Patti Sky',
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Withdraw Money from 3Patti Sky?',
-    description: 'Learn how to withdraw money from 3Patti Sky using our complete withdrawal guide.',
+    title: '3Patti Sky Withdrawal Guide',
+    description: 'The full withdrawal process for 3Patti Sky, explained step by step.',
   },
   alternates: {
     canonical: 'https://3pattiskygame.com.pk/withdraw-money-from-3patti-sky',
@@ -30,10 +30,10 @@ export default function WithdrawMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              How to Withdraw Money from 3Patti Sky?
+              Cashing Out Your 3Patti Sky Winnings
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
-              Fast, Secure & Easy Cash Out with JazzCash, EasyPaisa & Bank Transfer
+              JazzCash, EasyPaisa, or a direct bank transfer — pick what suits you
             </p>
             <Link
               href="https://3pattiskypk1.com?from_gameid=5286189&channelCode=100000"
@@ -41,7 +41,7 @@ export default function WithdrawMoneyPage() {
               rel="noopener noreferrer"
               className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
             >
-              Download & Start Earning
+              Get Started
             </Link>
           </div>
         </div>
@@ -53,10 +53,10 @@ export default function WithdrawMoneyPage() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                <Link href="/" className="text-accent hover:underline font-semibold">3Patti Sky</Link> is a well-known online card game that offers many variants of Teen Patti and allows players to earn real money. Many players play it to earn extra income. Once you win money, the first step is to cash out your funds securely.
+                <Link href="/" className="text-accent hover:underline font-semibold">3Patti Sky</Link> hosts several Teen Patti variants alongside a handful of other table games, and once a session goes your way, moving that balance out is the next step.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                New players can feel confused when they try to withdraw cash from 3Patti Sky. But the withdrawal process is straightforward, so that everyone can do it without any confusion. You can send your earnings to your personal accounts, such as Easypaisa and Jazzcash. It is very necessary to follow all steps correctly and provide correct information to payout winnings without any issues.
+                The cash-out flow isn't complicated, but it does need accurate details on your end — a mismatched account number or name is the single most common reason a payout gets held up. Make sure you've already <Link href="/deposit-money-in-3patti-sky" className="text-accent hover:underline font-semibold">funded your account</Link> and played a bit before you try withdrawing.
               </p>
             </div>
           </div>
@@ -68,143 +68,71 @@ export default function WithdrawMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
-              Step-By-Step Guide to Withdraw Money from 3Patti Sky
+              The Withdrawal Flow, Start to Finish
             </h2>
 
-            <div className="space-y-8">
-              {/* Step 1 */}
-              <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
-                    1
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Open 3Patti Sky App</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      First, open the 3Patti Sky app on your phone and log in to your account using your registered mobile number and password. You must have a strong internet connection to avoid login issues.
-                    </p>
-                  </div>
-                </div>
+            <div className="space-y-6 max-w-4xl mx-auto">
+              <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
+                <h3 className="text-xl font-bold text-[#FFA500] mb-3">1. Log Into Your Account</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Open the app on a stable connection and sign in with your registered number and password.
+                </p>
               </div>
 
-              {/* Step 2 */}
-              <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
-                    2
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Click on Wallet Option</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      After logging in to your 3Patti Sky account, click on the wallet option. You will see your current balance and other options, such as the withdraw and deposit buttons.
-                    </p>
-                  </div>
-                </div>
+              <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#4ade80]">
+                <h3 className="text-xl font-bold text-[#4ade80] mb-3">2. Head to Your Wallet</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Your current balance sits here, alongside the deposit and withdraw buttons.
+                </p>
               </div>
 
-              {/* Step 3 */}
-              <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
-                    3
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Choose Withdraw Button</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      After clicking on the wallet option, choose the withdraw button to start the withdrawal process. You will see different options, such as payment methods and payment amounts.
-                    </p>
-                  </div>
-                </div>
+              <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#60a5fa]">
+                <h3 className="text-xl font-bold text-[#60a5fa] mb-3">3. Tap Withdraw</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  This opens the cash-out screen with your available payment methods and amount fields.
+                </p>
               </div>
 
-              {/* Step 4 */}
-              <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
-                    4
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Type Amount</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      Type the amount that you want to cash out. It must be within withdrawal limits. Review your winnings before typing the withdrawal amount.
-                    </p>
-                  </div>
-                </div>
+              <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#f97316]">
+                <h3 className="text-xl font-bold text-[#f97316] mb-3">4. Enter the Amount</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Type in how much you'd like to cash out, staying within your account's current withdrawal limits.
+                </p>
               </div>
 
-              {/* Step 5 */}
-              <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
-                    5
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Select Payment Method</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      3Patti Sky provides many payment methods, including Easypaisa, Jazzcash, and Bank Transfer. Select the payment method that you want to use easily.
-                    </p>
-                  </div>
-                </div>
+              <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
+                <h3 className="text-xl font-bold text-[#FFA500] mb-3">5. Choose How to Receive It</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  EasyPaisa, JazzCash, or bank transfer — whichever is easiest for you to check.
+                </p>
               </div>
 
-              {/* Step 6 */}
-              <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
-                    6
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Enter Payment Details</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      Now enter your account information, including account number and name. Enter the correct payment details to avoid problems in the withdrawal process.
-                    </p>
-                  </div>
-                </div>
+              <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#4ade80]">
+                <h3 className="text-xl font-bold text-[#4ade80] mb-3">6. Double-Check Your Details</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Account number and name need to match exactly — this is where most delays come from, so review before submitting.
+                </p>
               </div>
 
-              {/* Step 7 */}
-              <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
-                    7
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Confirm Payout</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      Re-check all withdrawal details carefully. If the information is correct, confirm your withdrawal by clicking on the withdraw button.
-                    </p>
-                  </div>
-                </div>
+              <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#60a5fa]">
+                <h3 className="text-xl font-bold text-[#60a5fa] mb-3">7. Submit the Request</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Once everything checks out, confirm and send the withdrawal request.
+                </p>
               </div>
 
-              {/* Step 8 */}
-              <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
-                    8
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Wait for Processing</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      After confirming the withdrawal, 3Patti Sky will start processing your withdrawal request. It usually takes 24 hours or less. It may take longer due to network issues or payment delays.
-                    </p>
-                  </div>
-                </div>
+              <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#f97316]">
+                <h3 className="text-xl font-bold text-[#f97316] mb-3">8. Let It Process</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Most requests clear within a day; occasional delays happen during high-volume periods or network issues.
+                </p>
               </div>
 
-              {/* Step 9 */}
-              <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
-                    9
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Check Your Account</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      After successfully withdrawing the withdrawal request, you will receive your payment in your personal account. Check your account, and if you have received money, you can use it however you like.
-                    </p>
-                  </div>
-                </div>
+              <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
+                <h3 className="text-xl font-bold text-[#FFA500] mb-3">9. Confirm Receipt</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Check your wallet or bank account for the incoming payment — once it lands, it's yours to use freely.
+                </p>
               </div>
             </div>
           </div>
@@ -216,7 +144,7 @@ export default function WithdrawMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
-              Tips for Efficient Payout
+              Getting Paid Without Delays
             </h2>
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
               <ul className="space-y-4">
@@ -224,31 +152,31 @@ export default function WithdrawMoneyPage() {
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Use the same account information that you have used to create a 3Patti Sky account.</span>
+                  <span className="text-lg text-gray-300">Cash out to the same account details you registered with — mismatches are the #1 delay cause.</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Do not cash out tiny amounts to save time.</span>
+                  <span className="text-lg text-gray-300">Batching a few small wins into one larger withdrawal is quicker than cashing out every round.</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Update your 3Patti Sky app for smooth payouts.</span>
+                  <span className="text-lg text-gray-300">Keep the app updated — payout screens occasionally change with new releases.</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Your account must be verified to avoid problems.</span>
+                  <span className="text-lg text-gray-300">An unverified account is the second most common reason a request stalls — verify early.</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Contact the customer support team if you do not receive payment within a given time.</span>
+                  <span className="text-lg text-gray-300">If a payout hasn't shown up after the expected window, reach out to support rather than resubmitting.</span>
                 </li>
               </ul>
             </div>
@@ -261,12 +189,12 @@ export default function WithdrawMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Conclusion</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">In Short</h2>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                Cashing out funds from 3Patti Sky is very easy if you know the proper steps. Re-check your account information and select a real payment method. You can enjoy your earnings without any trouble if you follow the whole process correctly.
+                Withdrawing from 3Patti Sky is straightforward as long as your account details are accurate: open the wallet, pick a payout method, enter the right information, and confirm.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Follow all rules and withdrawal limits to avoid problems. It provides safe, quick withdrawals to all its users. You can securely collect your winnings and enjoy your favorite games in 3Patti Sky by following these simple steps.
+                Stay within the posted limits, keep your details current, and payouts should reach you without any drama.
               </p>
             </div>
           </div>
@@ -278,33 +206,33 @@ export default function WithdrawMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
-              Frequently Asked Questions
+              Common Questions
             </h2>
             <div className="space-y-6">
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  What is the minimum amount that we can withdraw from the 3Patti Sky Game?
+                  What's the smallest amount I can withdraw?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  You can easily withdraw a minimum of Rs 100 from your 3Patti Sky account, as it supports withdrawals of that amount.
+                  Rs 100 is the minimum cash-out amount on 3Patti Sky.
                 </p>
               </div>
 
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  How long does 3Patti Sky take to send withdrawals?
+                  How long until a withdrawal actually arrives?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  3Patti Sky usually processes withdrawals in 3 to 24 hours. It may take longer due to some issues.
+                  Typically somewhere between 3 and 24 hours, though busy periods or network hiccups can push it further out.
                 </p>
               </div>
 
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  What should we do if our payout fails on 3Patti Sky?
+                  My payout didn't go through — what now?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  If your withdrawal fails on 3Patti Sky, contact its customer support team to approve your withdrawal.
+                  Reach out to 3Patti Sky's customer support with your request details so they can look into and approve it.
                 </p>
               </div>
             </div>
@@ -317,10 +245,10 @@ export default function WithdrawMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Ready to Withdraw Your Winnings?
+              Got Winnings Waiting?
             </h2>
             <p className="text-lg text-gray-300 mb-8">
-              Download 3Patti Sky now and start withdrawing your earnings securely!
+              Get the app and cash out securely whenever you're ready.
             </p>
             <Link
               href="https://3pattiskypk1.com?from_gameid=5286189&channelCode=100000"
@@ -342,9 +270,9 @@ export default function WithdrawMoneyPage() {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
-              { "@type": "Question", "name": "What is the minimum amount that we can withdraw from the 3Patti Sky Game?", "acceptedAnswer": { "@type": "Answer", "text": "You can easily withdraw a minimum of Rs 100 from your 3Patti Sky account, as it supports withdrawals of that amount." } },
-              { "@type": "Question", "name": "How long does 3Patti Sky take to send withdrawals?", "acceptedAnswer": { "@type": "Answer", "text": "3Patti Sky usually processes withdrawals in 3 to 24 hours. It may take longer due to some issues." } },
-              { "@type": "Question", "name": "What should we do if our payout fails on 3Patti Sky?", "acceptedAnswer": { "@type": "Answer", "text": "If your withdrawal fails on 3Patti Sky, contact its customer support team to approve your withdrawal." } }
+              { "@type": "Question", "name": "What's the smallest amount I can withdraw?", "acceptedAnswer": { "@type": "Answer", "text": "Rs 100 is the minimum cash-out amount on 3Patti Sky." } },
+              { "@type": "Question", "name": "How long until a withdrawal actually arrives?", "acceptedAnswer": { "@type": "Answer", "text": "Typically somewhere between 3 and 24 hours, though busy periods or network hiccups can push it further out." } },
+              { "@type": "Question", "name": "My payout didn't go through — what now?", "acceptedAnswer": { "@type": "Answer", "text": "Reach out to 3Patti Sky's customer support with your request details so they can look into and approve it." } }
             ]
           })
         }}
@@ -357,53 +285,17 @@ export default function WithdrawMoneyPage() {
             "@context": "https://schema.org",
             "@type": "HowTo",
             "name": "How to Withdraw Money from 3Patti Sky",
-            "description": "Step-by-step guide to withdraw money from 3Patti Sky using JazzCash, EasyPaisa, and Bank Transfer",
+            "description": "The full cash-out process for 3Patti Sky using JazzCash, EasyPaisa, or bank transfer.",
             "step": [
-              {
-                "@type": "HowToStep",
-                "name": "Open 3Patti Sky App",
-                "text": "Open the 3Patti Sky app on your phone and log in to your account."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Click on Wallet Option",
-                "text": "Click on the wallet option to see your balance and withdrawal options."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Choose Withdraw Button",
-                "text": "Choose the withdraw button to start the withdrawal process."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Type Amount",
-                "text": "Type the amount you want to cash out within withdrawal limits."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Select Payment Method",
-                "text": "Select your payment method: Easypaisa, Jazzcash, or Bank Transfer."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Enter Payment Details",
-                "text": "Enter your account information including account number and name."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Confirm Payout",
-                "text": "Re-check all details and confirm your withdrawal."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Wait for Processing",
-                "text": "Wait for 3Patti Sky to process your withdrawal (usually within 24 hours)."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Check Your Account",
-                "text": "Check your personal account to confirm you've received the payment."
-              }
+              { "@type": "HowToStep", "name": "Log Into Your Account", "text": "Sign in with your registered mobile number and password." },
+              { "@type": "HowToStep", "name": "Head to Your Wallet", "text": "Open the wallet section to view your balance and payout options." },
+              { "@type": "HowToStep", "name": "Tap Withdraw", "text": "Open the cash-out screen with available payment methods." },
+              { "@type": "HowToStep", "name": "Enter the Amount", "text": "Type the amount you want to withdraw, within your account limits." },
+              { "@type": "HowToStep", "name": "Choose How to Receive It", "text": "Pick EasyPaisa, JazzCash, or bank transfer." },
+              { "@type": "HowToStep", "name": "Double-Check Your Details", "text": "Confirm your account number and name are entered correctly." },
+              { "@type": "HowToStep", "name": "Submit the Request", "text": "Send the withdrawal request for processing." },
+              { "@type": "HowToStep", "name": "Let It Process", "text": "Wait for the request to clear, usually within 24 hours." },
+              { "@type": "HowToStep", "name": "Confirm Receipt", "text": "Check your wallet or bank account for the incoming payment." }
             ]
           })
         }}
@@ -411,4 +303,3 @@ export default function WithdrawMoneyPage() {
     </div>
   );
 }
-

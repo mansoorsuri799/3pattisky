@@ -3,12 +3,12 @@ import Link from 'next/link';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - 3Patti Sky | Get Help & Support',
-  description: 'Contact 3Patti Sky support team for help with the app, content, privacy policy, and more. We are here to assist you.',
-  keywords: 'contact 3patti sky, 3patti sky support, 3patti sky email, customer support, help 3patti sky',
+  title: 'Reach the 3Patti Sky Team | Contact & Support',
+  description: 'Have a question about the 3Patti Sky app, a page on this site, or our privacy policy? Send us a message and we will get back to you.',
+  keywords: '3patti sky contact, 3patti sky support email, 3patti sky help, reach 3patti sky team',
   openGraph: {
-    title: 'Contact Us - 3Patti Sky',
-    description: 'Get in touch with 3Patti Sky support team for any queries or assistance.',
+    title: 'Reach the 3Patti Sky Team',
+    description: 'Questions about the app or this site? Get in touch with the 3Patti Sky team.',
     url: 'https://3pattiskygame.com.pk/contact-us',
     siteName: '3Patti Sky',
     type: 'website',
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact Us - 3Patti Sky',
-    description: 'Get in touch with 3Patti Sky support team for any queries or assistance.',
+    title: 'Reach the 3Patti Sky Team',
+    description: 'Questions about the app or this site? Get in touch with the 3Patti Sky team.',
     images: ['https://3pattiskygame.com.pk/3-Patti-Sky.webp'],
   },
   alternates: {
@@ -36,15 +36,15 @@ export default function Contact() {
         <div className="max-w-4xl mx-auto">
           {/* Hero Section */}
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Contact Us</h1>
-            <p className="text-lg text-gray-400">We're here to help you!</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Get in Touch</h1>
+            <p className="text-lg text-gray-400">Questions, feedback, or a problem to report — we're listening.</p>
           </div>
-          
+
           {/* Main Content */}
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                Welcome to the Contact Us page of this site. Here, we will share the source to contact us. Feel free to contact us if you are facing any problems regarding our site, such as <Link href="/" className="text-accent hover:underline font-semibold">3patti Sky</Link>-related content or <Link href="/about-us" className="text-accent hover:text-accent font-semibold">About us</Link>, <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, etc.
+                Whether it's something about <Link href="/" className="text-accent hover:underline font-semibold">3Patti Sky</Link> itself, a question about our <Link href="/about-us" className="text-accent hover:text-accent font-semibold">About Us</Link> page, our <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, or anything else on this site, send it our way using either option below.
               </p>
 
               {/* Email Contact Section */}
@@ -54,10 +54,10 @@ export default function Contact() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                   </svg>
                 </div>
-                <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-white">E-Mail</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-white">Email Directly</h2>
                 <div className="text-center">
-                  <a 
-                    href="mailto:abbasghuulam16@gmail.com" 
+                  <a
+                    href="mailto:abbasghuulam16@gmail.com"
                     className="inline-flex items-center justify-center bg-accent hover:bg-accent/90 text-primary font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                   >
                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -83,10 +83,10 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-white">App Information</h3>
-              <p className="text-gray-400 mb-4">Need help with the 3Patti Sky app?</p>
+              <h3 className="text-xl font-bold mb-2 text-white">About the App</h3>
+              <p className="text-gray-400 mb-4">Curious what 3Patti Sky actually offers?</p>
               <Link href="/" className="text-accent hover:text-accent font-semibold">
-                Learn More →
+                Visit Homepage →
               </Link>
             </div>
 
@@ -97,7 +97,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2 text-white">Privacy Policy</h3>
-              <p className="text-gray-400 mb-4">Read our privacy policy</p>
+              <p className="text-gray-400 mb-4">See how we handle your data</p>
               <Link href="/privacy" className="text-accent hover:text-accent font-semibold">
                 Read Policy →
               </Link>
@@ -109,8 +109,8 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-white">About Us</h3>
-              <p className="text-gray-400 mb-4">Learn more about our platform</p>
+              <h3 className="text-xl font-bold mb-2 text-white">Who We Are</h3>
+              <p className="text-gray-400 mb-4">A bit more background on this site</p>
               <Link href="/about-us" className="text-accent hover:text-accent font-semibold">
                 About Us →
               </Link>
@@ -142,4 +142,4 @@ export default function Contact() {
       />
     </div>
   );
-} 
+}

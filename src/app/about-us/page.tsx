@@ -4,9 +4,9 @@ import Link from 'next/link';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'About 3Patti Sky - Pakistan\'s Premier Card Gaming Platform',
-  description: 'Learn about 3Patti Sky, our history, mission, and vision for creating the best card gaming platform in Pakistan with Teen Patti, Rummy and more.',
-  keywords: ['3Patti Sky about', 'about us', 'gaming company Pakistan', '3Patti Sky history', 'card gaming platform', 'Teen Patti', '3 Patti'],
+  title: '3Patti Sky — Who We Are',
+  description: 'A quick introduction to 3Patti Sky: what the platform is, why it was built, and how to reach us with questions.',
+  keywords: ['3Patti Sky about', 'about us', 'gaming platform Pakistan', '3Patti Sky team', 'card gaming Pakistan', 'Teen Patti', '3 Patti'],
   robots: {
     index: true,
     follow: true,
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     canonical: "https://3pattiskygame.com.pk/about-us",
   },
   openGraph: {
-    title: 'About 3Patti Sky - Pakistan\'s Premier Card Gaming Platform',
-    description: 'Learn about 3Patti Sky, our history, mission, and vision for creating the best card gaming platform in Pakistan with real cash rewards.',
+    title: '3Patti Sky — Who We Are',
+    description: 'A quick introduction to the 3Patti Sky platform, what it offers, and how to reach the team.',
     url: "https://3pattiskygame.com.pk/about-us",
     siteName: "3Patti Sky",
     locale: "en_US",
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
         url: "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
         width: 1200,
         height: 630,
-        alt: "About 3Patti Sky - Premier Card Gaming Platform",
+        alt: "About 3Patti Sky",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: 'About 3Patti Sky - Pakistan\'s Premier Card Gaming Platform',
-    description: 'Learn about 3Patti Sky, our history, mission, and vision for creating the best card gaming platform in Pakistan with real cash rewards.',
+    title: '3Patti Sky — Who We Are',
+    description: 'A quick introduction to the 3Patti Sky platform, what it offers, and how to reach the team.',
     images: ["https://3pattiskygame.com.pk/3-Patti-Sky.webp"],
   },
 };
@@ -51,18 +51,18 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto">
           {/* Hero Section */}
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">About Us</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Who We Are</h1>
           </div>
-          
+
           {/* Main Content */}
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-12">
             <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
               <div className="md:w-1/3">
                 <div className="relative w-full aspect-square rounded-lg overflow-hidden bg-[#0A1029]">
                   <Link href="/">
-                    <Image 
-                      src="/3-Patti-Sky.webp" 
-                      alt="3Patti Sky Logo" 
+                    <Image
+                      src="/3-Patti-Sky.webp"
+                      alt="3Patti Sky Logo"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 320px"
                       className="object-contain p-4"
@@ -74,32 +74,32 @@ export default function AboutPage() {
               <div className="md:w-2/3">
                 <div className="prose prose-lg max-w-none">
                   <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                    Welcome to <a href="https://3pattiskygame.com.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.3pattiskygame.com.pk</a>, a trusted platform to provide the latest information about 3patti <Link href="/" className="text-accent hover:underline font-semibold">3Patti Sky</Link>. This is one of the most popular online casino games in Pakistan, having <span className="font-bold text-accent">500K+ users</span>.
+                    This site (<a href="https://3pattiskygame.com.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">3pattiskygame.com.pk</a>) covers everything related to <Link href="/" className="text-accent hover:underline font-semibold">3Patti Sky</Link>, a real-money card gaming app that's built up a base of over <span className="font-bold text-accent">500K users</span> across Pakistan.
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed">
-                    Hundreds of people are playing these wonderful games and earning a handsome amount on a daily or weekly basis.
+                    Players come here for straightforward guidance — how deposits and withdrawals work, which games are on offer, and what to watch out for — rather than marketing copy.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          
+
           {/* Our Aim Section */}
           <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white text-center">Our Aim!</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white text-center">What We're Trying to Do</h2>
             <p className="text-lg md:text-xl text-white leading-relaxed text-center">
-              Our aim is to provide the users with the latest and updated information and earning tips about 3Patti Sky. For any type of information or query, you can visit our <Link href="/contact-us" className="underline hover:text-orange-100 font-semibold">contact us page</Link>.
+              Keep this page current, keep the guides accurate, and answer real questions from real players. If something here doesn't add up or you've hit an issue, our <Link href="/contact-us" className="underline hover:text-orange-100 font-semibold">contact page</Link> reaches us directly.
             </p>
           </div>
-          
+
           {/* Contact CTA */}
           <div className="bg-secondary rounded-2xl shadow-xl p-8 text-center">
-            <h2 className="text-2xl font-bold mb-4 text-white">Have Questions?</h2>
+            <h2 className="text-2xl font-bold mb-4 text-white">Something Unclear?</h2>
             <p className="text-gray-300 mb-6 text-lg">
-              We're here to help! Contact our team for any information or queries about 3Patti Sky.
+              Send us a message and we'll get back to you about anything on this site or the app itself.
             </p>
-            <Link 
-              href="/contact-us" 
+            <Link
+              href="/contact-us"
               className="inline-block bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               Contact Us
@@ -121,7 +121,7 @@ export default function AboutPage() {
               "alternateName": "3 Patti Sky",
               "url": "https://3pattiskygame.com.pk",
               "logo": "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
-              "description": "3Patti Sky is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, Dragon vs Tiger and more with real cash rewards.",
+              "description": "3Patti Sky is a real-money card gaming platform for Pakistani players, covering Teen Patti, Rummy, Dragon vs Tiger and more.",
               "foundingDate": "2024",
               "foundingLocation": {
                 "@type": "Country",
@@ -139,7 +139,7 @@ export default function AboutPage() {
             "about": {
               "@type": "Thing",
               "name": "Card Gaming Platform",
-              "description": "Online card gaming platform with real cash rewards serving Pakistani users"
+              "description": "Real-money card gaming platform serving Pakistani players"
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
@@ -150,4 +150,4 @@ export default function AboutPage() {
       />
     </div>
   );
-} 
+}

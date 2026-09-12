@@ -57,19 +57,18 @@ export default function AboutPage() {
           {/* Main Content */}
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-12">
             <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
-              <div className="md:w-1/3">
-                <div className="relative w-full aspect-square rounded-lg overflow-hidden bg-[#0A1029]">
-                  <Link href="/">
-                    <Image
-                      src="/3-Patti-Sky.webp"
-                      alt="3Patti Sky Logo"
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 320px"
-                      className="object-contain p-4"
-                      priority
-                    />
-                  </Link>
-                </div>
+              <div className="w-full md:w-1/3">
+                <Link href="/" className="block rounded-lg overflow-hidden bg-[#0A1029]">
+                  <Image
+                    src="/3-Patti-Sky.webp"
+                    alt="3Patti Sky Logo"
+                    width={320}
+                    height={320}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 320px"
+                    className="object-contain p-4 w-full h-auto"
+                    priority
+                  />
+                </Link>
               </div>
               <div className="md:w-2/3">
                 <div className="prose prose-lg max-w-none">
